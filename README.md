@@ -19,6 +19,8 @@ The following technologies have been used in this project:
 
 ### 3.2 Step-by-Step Multiplication Animation
 
+https://github.com/user-attachments/assets/ff90b773-5b64-47b3-95ba-4a5b60db6ba2
+
 1. The numbers to be multiplied are colored at each step.
 2. The result matrix (C) is filled step by step.
 3. The animation is carried out sequentially using setTimeout().
