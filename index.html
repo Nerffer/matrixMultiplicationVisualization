@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Multiplication Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Matrix Multiplication Visualization</h1>
+    <div>
+        <h3>Enter Matrix Dimensions:</h3>
+        <input type="number" id="rowsA" placeholder="Rows of A" min="2">
+        <input type="number" id="colsA_rowsB" placeholder="Cols of A, Rows of B" min="1">
+        <input type="number" id="colsB" placeholder="Cols of B" min="1">
+    </div>
+
+    <div>
+        <button id="btn" onclick="initializeMatrices()">Generate the Matrices</button>
+    </div>
+
+    <div id="matrices">
+        <div id="matrixA"></div>
+        <div class="operator"></div>
+        <div id="matrixB"></div>
+        <div class="operator"></div>
+        <div id="matrixC"></div>
+    </div>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
